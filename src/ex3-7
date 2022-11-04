@@ -1,6 +1,6 @@
 #!/bin/sh
 read dir
-CREATEDIR=/home/sean/ffjwjf
+CREATEDIR=/home/$dir
 echo $CREATEDIR
 mkdir $CREATEDIR
 cd $CREATEDIR
