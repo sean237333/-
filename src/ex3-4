@@ -1,0 +1,11 @@
+#!/bin/sh
+# file-name: ex3-4
+
+var=$1
+echo "Linux is fun?(yes or no)"
+
+case $var in
+	y) echo yes;;
+	n) echo no;;
+	*) echo try again;;
+esac

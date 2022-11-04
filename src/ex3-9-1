@@ -1,0 +1,4 @@
+#!/bin/sh
+t=$1
+eval grap -r $t ./DB.txt
+exit 0

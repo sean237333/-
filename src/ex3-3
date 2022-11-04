@@ -1,0 +1,14 @@
+#!/bin/sh
+# file-name: ex3-3
+
+weight=$1
+height=$2
+
+BMI=$(( $weight/($height*$height)))
+if [ $BMI -gt 18 ]; then
+	echo "low weight"
+elif [ 18 -ge $BMI ] && [ $BMI -ge 23 ]; then
+	echo "nomal weight"
+else
+	echo "high weight"
+fi
