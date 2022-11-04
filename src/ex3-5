@@ -1,7 +1,7 @@
 #!/bin/bash
 
 Mfuction(){
-	echo"in fuction"
+	echo "in fuction"
 	ref="$1"
 	eval $ref
 	return
