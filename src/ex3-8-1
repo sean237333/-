@@ -1,6 +1,6 @@
 #!/bin/sh
 touch DB.txt
-t=$@
-read t
-echo "$t" >> DB.txt
+k=$@
+read k
+echo "$k" >> DB.txt
 exit 0
