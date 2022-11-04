@@ -1,6 +1,6 @@
 #!/bin/sh
 read dir
-CREATEDIR=/home/sean/base.py/src/$dir
+CREATEDIR=/home/$dir
 echo $CREATEDIR
 if [! -d $CREATEDIR ]; then
 {
