@@ -1,4 +1,4 @@
 #!/bin/sh
-t=$1
-eval grap -r $t ./DB.txt
+k=$1
+eval grep -r $k ./DB.txt
 exit 0
